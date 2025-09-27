@@ -1,14 +1,19 @@
 {
   "name": "json-server-backend",
   "version": "1.0.0",
-  "description": "Backend for user dashboard assignment",
+  "description": "JSON Server for dashboard assignment",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 5001"
+    "start": "json-server --watch db.json --port $PORT"
   },
+  "keywords": [
+    "json-server",
+    "mock-api",
+    "dashboard"
+  ],
+  "author": "Ramesh Navalagund",
+  "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
-  },
-  "author": "",
-  "license": "ISC"
+    "json-server": "^0.17.3"
+  }
 }
